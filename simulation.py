@@ -83,7 +83,7 @@ ward_3_tst = 0
 
 total_time_queue = 0
 
-for i in range(2,26):
+for i in range(2,101):
 	rda = round(random.uniform(0,100))
 	cta = cta + generateTBA(rda)
 	rds = round(random.uniform(0,100))
@@ -134,9 +134,9 @@ for i in range(2,26):
 
 total_time_system = ward_1_tst + ward_2_tst + ward_3_tst + total_time_queue
 
-avg_time_system = total_time_system / 26
+avg_time_system = total_time_system / 100
 
-avg_delay = total_time_queue / 26
+avg_delay = total_time_queue / 100
 
 
 
