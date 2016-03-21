@@ -5,4 +5,12 @@ Requirements: Python 3, PyQt4
 
 How to run?
 
+Running with GUI:
 Double click the hosp.py file. Ensure that you have PyQT4 on your system.
+
+Running on commandline:
+Open the termnial and navigate to the project directory. Then run the following command:
+
+```
+$ python3 simulation.py
+```
