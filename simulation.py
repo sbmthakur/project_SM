@@ -18,32 +18,32 @@ def generateTBA(rda):
 
 def ward_1_service_time(rds):
 	if rds == 0:
-		return 4
+		return 6
 	
 	elif rds >= 1 and rds <= 20:
-	    return 1
+	    return 4
 	
 	elif rds >= 21 and rds <= 45:
-		return 2
+		return 5
 
 	elif rds >= 46 and rds <= 75:
 		return 3
 
 	else:
-		return 4
+		return 6
 
 def ward_2_service_time(rds):
 	if rds == 0:
 		return 5
 	
 	elif rds >= 1 and rds <= 30:
-	    return 2
+	    return 7
 	
 	elif rds >= 31 and rds <= 58:
-		return 3
+		return 6
 
 	elif rds >= 59 and rds <= 83:
-		return 4
+		return 8
 
 	else:
 		return 5
@@ -53,16 +53,16 @@ def ward_3_service_time(rds):
 		return 6
 	
 	elif rds >= 1 and rds <= 35:
-	    return 3
+	    return 7
 	
 	elif rds >= 36 and rds <= 60:
-		return 4
+		return 10
 
 	elif rds >= 61 and rds <= 80:
-		return 5
+		return 8
 
 	else:
-		return 6
+		return 9
 
 
 cta = 0
