@@ -138,6 +138,9 @@ avg_time_system = total_time_system / 100
 
 avg_delay = total_time_queue / 100
 
-
+print("Total time in queue: " + str(total_time_queue))
+print("Average delay: " + str(avg_delay))
+print("Total time in system: " + str(total_time_system))
+print("Average time in system: " + str(avg_time_system))
 
 
