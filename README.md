@@ -1,1 +1,1 @@
-This project is a simulation for ward management in hospitals. The project takes 26 patients and allocates wards to them.
+This project is a simulation for ward management in hospitals. The project takes 100 patients and allocates wards to them. The purpose of this simulation is to decide how many operation theaters with doctors of different levels of expertise. Every ward has doctors with different level of expertise which affects the time of the operation. The simulation provides an idea about how the hospital will work.
