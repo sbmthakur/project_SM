@@ -131,7 +131,7 @@ class Ui_HospitalSimulator(object):
 
         def ward_1_service_time(rds):
                 if rds == 0:
-                        return 4
+                        return 6
                 
                 elif rds >= 1 and rds <= 20:
                     return 4
@@ -163,7 +163,7 @@ class Ui_HospitalSimulator(object):
 
         def ward_3_service_time(rds):
                 if rds == 0:
-                        return 6
+                        return 9
                 
                 elif rds >= 1 and rds <= 35:
                     return 7
