@@ -50,7 +50,7 @@ def ward_2_service_time(rds):
 
 def ward_3_service_time(rds):
 	if rds == 0:
-		return 6
+		return 9
 	
 	elif rds >= 1 and rds <= 35:
 	    return 7
